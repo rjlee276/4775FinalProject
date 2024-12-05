@@ -12,13 +12,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.manifold import TSNE
 
 # Import clustering methods
-from kmeds import k_medoids
-from hmm import hmm_clustering
-from fuzzyc import init_fuzzy_c_means
+from clustering_algorithms.kmeds import k_medoids
+from clustering_algorithms.hmm import hmm_clustering
+from clustering_algorithms.fuzzyc import init_fuzzy_c_means
 
 
 # Import Preprocessing Utils
-from utils import fetch_pfms, pfm_to_pwm, pfm_to_probabilities, pad_or_trim_pwm, pwm_to_vector, pwm_to_consensus, pwm_similarity, create_unique_id, compute_total_entropy, is_valid_pwm
+from preprocessing.utils import fetch_pfms, pfm_to_pwm, pfm_to_probabilities, pad_or_trim_pwm, pwm_to_vector, pwm_to_consensus, pwm_similarity, create_unique_id, compute_total_entropy, is_valid_pwm
 
 # ------------------ Parameters ------------------
 # Define species list
